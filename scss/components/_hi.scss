@@ -1,0 +1,36 @@
+.hi {
+  background-color: #445162;
+  padding: 50px 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__body {
+    color: #fff;
+    padding: 0 30px 0 0;
+  }
+
+  &__title {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    margin: 0 0 38px 0;
+  }
+
+  &__list {
+
+    li {
+      background: url("../img/png/check.png") 0 1px no-repeat;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+      font-size: 20px;
+      line-height: 22px;
+      padding: 0 0 0 36px;
+      margin: 0 0 15px 0;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
